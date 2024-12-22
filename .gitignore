@@ -1,0 +1,28 @@
+# Виртуальное окружение
+venv/
+env/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+
+# Логи и отладочная информация
+*.log
+*.out
+*.err
+
+# Настройки IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Конфигурационные файлы
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+Thumbs.db

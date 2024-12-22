@@ -1,0 +1,74 @@
+{
+  "url": "https://yeniemlak.az",
+  "list_selector": ".list",
+  "filters_path":"static_data/yeniemlak.az/filters.json",
+  "detail_link_selector": "a.detail",
+  "detail_data_selector": "table table",
+  "fields": {
+    "ad_numder": {
+      "css_selector": "titem:nth-of-type(3) b",
+      "type": "integer",
+      "method": "text"
+    },
+    "created_at": {
+      "css_selector": "titem:nth-of-type(2) b",
+      "type": "integer",
+      "method": "text"
+    },
+    "price": {
+      "selector": "price",
+      "type": "float",
+      "method": "text"
+    },
+    "ad_type":{
+      "selector": "tip",
+      "type": "text",
+      "method": "text"
+    },
+    "building_type": {
+      "selector": "emlak",
+      "type": "text",
+      "method": "combined_text"
+    },
+    "description": {
+      "css_selector": ".text",
+      "type": "text",
+      "method": "text"
+    },
+    "author_type": {
+      "css_selector":".elvrn"
+    },
+    "construction_type": null,
+    "floor": {
+      "regex": "(\\d+)\\s*(Mərtəbə)|(\\d+)\\s*/\\s*(\\d+)\\s*",
+      "type": "integer",
+      "method": "text",
+      "group":0
+    },
+    "rooms": {
+      "regex": "(\\d+)\\s*(otaq)",
+      "type": "integer",
+      "method": "text",
+      "group": 1
+    },
+    "area_m": {
+      "regex": "(\\d+)\\s*(m2)",
+      "type": "integer",
+      "method": "text",
+      "group": 1
+    },
+    "area_s": {
+      "regex": "(\\d+)\\s*(sot)",
+      "type": "integer",
+      "method": "text",
+      "group": 1
+    },
+    "kupcha": {
+      "regex": "(?i)\\b(kupça|kupçasız)\\b",
+      "type":"text",
+      "method":"text",
+      "group":0
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "url": "https://tap.az",
+  "list_selector": ".categories-products .products-i",
+  "filters_path":"static_data/tap.az/filters.json",
+  "detail_link_selector": "a.products-link",
+  "fields": {
+    
+  }
+}

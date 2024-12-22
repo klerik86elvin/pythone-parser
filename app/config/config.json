@@ -1,0 +1,9 @@
+{
+    "base_filters_path": "static_data/base_filters.json",
+    "filter_paths": {
+        "tap.az": "static_data/filters/tap_az.json"
+    },
+    "log_level": "DEBUG",
+    "timeout": 10,
+    "retry_attempts": 3
+}

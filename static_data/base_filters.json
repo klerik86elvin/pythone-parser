@@ -1,0 +1,101 @@
+{
+    "ad_type": {
+        "title": "Elanın növü",
+        "description": "Тип объявления (продажа, аренда)",
+        "data": [
+          {"id": 1, "name": "Satılır"},
+          {"id": 2, "name": "Aylıq Kirayə"},
+          {"id": 3, "name": "Günlük Kirayə"}
+        ]
+    },
+    "price": {
+        "title": "Qiymət",
+        "description": "Диапазон цен"
+    },
+    "area_m": {
+        "title": "Sahə m2",
+        "description": "Диапазон площадей"
+    },
+    "area_s": {
+      "title": "Sahə sot",
+      "description": "Диапазон площадей частных домов"
+    },
+    "rooms": {
+        "description": "Количество комнат"
+    },
+    "region": {
+      "description": "Регион или город",
+      "data": [
+        {"id": 7, "name": "Bakı"},
+        {"id": 57, "name": "Sumqayıt"},
+        {"id": 2, "name": "Xırdalan "}
+      ]
+    },
+    "metro": {
+        "description": "Станции метро",
+        "data":[
+          { "id": 1, "value": "Həzi Aslanov" },
+          { "id": 2, "value": "Əhmədli" },
+          { "id": 3, "value": "Xalqlar Dostluğu" },
+          { "id": 4, "value": "Neftçilər" },
+          { "id": 5, "value": "Qara Qarayev" },
+          { "id": 6, "value": "Koroğlu" },
+          { "id": 7, "value": "Ulduz" },
+          { "id": 8, "value": "Nəriman Nərimanov" },
+          { "id": 9, "value": "Gənclik" },
+          { "id": 10, "value": "28 May" },
+          { "id": 11, "value": "Nizami" },
+          { "id": 12, "value": "Elmlər Akademiyası" },
+          { "id": 13, "value": "İnşaatçılar" },
+          { "id": 14, "value": "20 Yanvar" },
+          { "id": 15, "value": "Memar Əcəmi" },
+          { "id": 16, "value": "Nəsimi" },
+          { "id": 17, "value": "Azadlıq prospekti" },
+          { "id": 18, "value": "Cəfər Cabbarlı" },
+          { "id": 19, "value": "Xətai" },
+          { "id": 20, "value": "Sahil" },
+          { "id": 21, "value": "İçəri Şəhər" },
+          { "id": 22, "value": "Bakmil" },
+          { "id": 23, "value": "Dərnəgül" },
+          { "id": 24, "value": "Avtovağzal" },
+          { "id": 25, "value": "8 Noyabr" },
+          { "id": 26, "value": "Xocəsən" }
+        ]
+    },
+    "district": {
+      "description": "Район",
+      "data": [
+        { "id": 1, "value": "Binəqədi rayonu" },
+        { "id": 2, "value": "Nizami rayonu" },
+        { "id": 3, "value": "Nərimanov rayonu" },
+        { "id": 4, "value": "Nəsimi rayonu" },
+        { "id": 5, "value": "Qaradağ rayonu" },
+        { "id": 6, "value": "Sabunçu rayonu" },
+        { "id": 7, "value": "Suraxanı rayonu" },
+        { "id": 8, "value": "Səbail rayonu" },
+        { "id": 9, "value": "Xətai rayonu" },
+        { "id": 10, "value": "Xəzər rayonu" },
+        { "id": 11, "value": "Yasamal rayonu" },
+        { "id": 36, "value": "Pirallahı rayonu" }
+      ]
+    },
+    "building_type": {
+        "description": "Тип здания (новостройка, старый фонд)",
+        "title": "Əmlakın növü",
+        "data":[
+          {"id": 1, "name": "Bina evi menzil"},
+          {"id": 2, "name": "Həyət evi / Villa"},
+          {"id": 3, "name": "Torpaq sahəsi"},
+          {"id": 4, "name": "Obyekt"},
+          {"id": 5, "name": "Ofis"},
+          {"id": 6, "name": "Qaraj"},
+          {"id": 7, "name": "Digər"}
+        ]
+    },
+    "keywords": {
+        "description": "Ключевые слова для поиска"
+    },
+    "floor": {
+        "description": "Диапазон этажей (от минимального до максимального)"
+    }
+}

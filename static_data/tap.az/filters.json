@@ -1,0 +1,61 @@
+{
+  "building_type": {
+    "key":null,
+    "type":"select",
+    "location": "path",
+    "dynamic": false,
+    "data":[
+      {"id": 1, "value": "menziller"},
+      {"id": 2, "value": "heyet-evleri"},
+      {"id": 3, "value": "torpaq-sahesi"},
+      {"id": 4, "value": "obyektler-ve-ofisler"},
+      {"id": 6, "value": "qarajlar"}
+    ]
+  },
+  "price": {
+    "key":"q[price][]",
+    "type": "range",
+    "location": "query",
+    "dynamic":true
+    },
+  "ad_type": {
+    "type": "select",
+    "key": "p[740]",
+    "location": "query",
+    "dynamic": false,
+    "data": [
+      {"id": 1, "value": 3722},
+      {"id": 2, "value": 3724}
+    ]
+  },
+  "area_m": {
+    "key":"p[737][]",
+    "type":"range",
+    "location":"query",
+    "dynamic":true
+    },
+    "area_s": {
+    "key":"p[751][]",
+    "type":"range",
+    "location":"query",
+    "dynamic":true
+    },
+  "rooms":{
+    "key": "p[736][]",
+    "type":"range",
+    "location":"query",
+    "dynamic":true
+    },
+  "region": {
+    "key":"q[region_id]",
+    "location":"query",
+    "type":"select",
+    "dymanic": false,
+    "data":[
+      {"id": 7,"value": 420},
+      {"id": 57,"value": 419},
+      {"id": 2,"value": 450}
+    ]
+  },
+  "keywords": "q[keywords]"
+}
