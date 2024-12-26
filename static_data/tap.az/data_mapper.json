@@ -1,0 +1,34 @@
+{
+    "ad_type": {
+        "keys": ["Elanın tipi", "Kirayə müddəti"],
+        "values": [
+            {
+                "id": 3,
+                "value":"Günlük"
+            },
+            {
+                "id": 1,
+                "value":"Satış"
+            },
+            {
+                "id": 2,
+                "value":"Aylıq"
+            }
+        ]
+    },
+    "city": {
+        "key": "Şəhər",
+        "values":[
+            {"id": 7, "value": "Bakı"},
+            {"id": 57, "value": "Sumqayıt"},
+            {"id": 2, "value": "Xırdalan"}
+        ]
+    },
+    "construction_type": {
+        "key": "Binanın tipi",
+        "values":[
+            {"id": 1, "value": "Yeni tikili"},
+            {"id": 2, "value": "Köhnə tikili"}
+        ]
+    }
+}

@@ -2,8 +2,34 @@
   "url": "https://tap.az",
   "list_selector": ".categories-products .products-i",
   "filters_path":"static_data/tap.az/filters.json",
+  "data_mapper_path":"static_data/tap.az/data_mapper.json",
   "detail_link_selector": "a.products-link",
   "fields": {
-    
+    "title": {
+      "css_selector": ".product-title",
+      "type": "text",
+      "method": "text"
+    },
+    "price": {
+      "css_selector": ".price-val",
+      "type": "text",
+      "method":"text"
+    },
+    "description": {
+      "css_selector": ".product-description__content p",
+      "method":"text"
+    },
+    "information": {
+      "css_selector_arr": ".product-properties__i" ,
+      "method":"text"
+    },
+    "footer_information": {
+      "css_selector_arr": ".product-info__statistics__i-text",
+      "method":"text"
+    },
+    "images": {
+      "css_selector_arr": ".product-photos__slider-top-i img",
+      "method":"attr:src"
+    }
   }
 }
