@@ -36,6 +36,6 @@ tap_parser = TapAzParser(tap_config)
 # save_html_to_file(html)
 # # url = "https://tap.az/elanlar/dasinmaz-emlak/menziller"
 
-parse_data = tap_parser.parse_detail_page("https://tap.az/elanlar/dasinmaz-emlak/heyet-evleri/38241132")
+parse_data = tap_parser.parse_detail_page("https://tap.az/elanlar/dasinmaz-emlak/heyet-evleri/43147265")
 adapter = TapDataTransformer(parse_data, tap_config)
 adapter.adapt()

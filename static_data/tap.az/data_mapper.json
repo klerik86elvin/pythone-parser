@@ -11,6 +11,10 @@
                 "value":"Satış"
             },
             {
+                "id": 1,
+                "value": "Satılır"
+            },
+            {
                 "id": 2,
                 "value":"Aylıq"
             }
